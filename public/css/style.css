@@ -1,0 +1,42 @@
+html {
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    margin: 0%;
+    font-size: 62.5%;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    background-image: url(/img/1136_gettyimages-157308564\ 2.jpg);
+    background-size: cover;
+    height: 1000px;
+}
+
+
+li {
+    list-style-type: none;
+    font-size: 3rem;
+    font-family: 'Australia Title';
+    padding-left: 10%;
+    
+    
+}
+
+ul {
+    display: flex;
+    
+}
+
+.navLeft {
+    width: 20%;
+    margin: 1% 0 0 2%;
+}
+
+.navRight {
+    width: 70%;
+}
