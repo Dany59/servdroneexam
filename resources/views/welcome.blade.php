@@ -45,11 +45,26 @@
 
 
 <div class="contientImage">
-    <div class="imgDrone1">
-        <img class="premierDrone" src="/img/pack anafi 1.png" alt="">
-    </div>
+  
+    <div class="pictos">
 
-    <div class="pictos"></div>
+        <div class="divPictoUn">
+            <img class="pictoUn" src="/img/icon-cook.svg" alt="">
+            <img class="pictoUn" src="/img/icon-dog.svg" alt="">
+        </div>
+
+        <div class="divPictoDeux">
+            <img class="pictoDeux" src="/img/icon-box.svg" alt="">
+            <img class="pictoDeux" src="/img/icon-parking.svg" alt="">
+            <img class="pictoDeux" src="/img/icon-camera.svg" alt="">
+</div>
+
+    <div class="divButton">
+    <button class="buttonDetail">En savoir plus</button>
+</div>
+
+
+    </div>
 </div>
 
 

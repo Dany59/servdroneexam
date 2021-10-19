@@ -94,8 +94,8 @@ ul {
 .droneUn {
     width: 100%;
     margin-top: 2%;
-    margin-right: 5%;
-    background-image: url("/img/94636515-bâtiments-tower-bridge-et-london-city-hall-londres-royaume-uni 3.png");
+   /* margin-right: 5%;*/
+    background-image: url("/img/Home-picture-01.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -132,4 +132,55 @@ ul {
 
 .premierDrone{
     width: 100%;
+}
+
+.pictos{
+    width: 100%;
+}
+
+.divPictoUn {
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+    display: flex;
+}
+
+.pictoUn {
+    width: 5%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.divPictoDeux{
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+    display: flex;
+    margin-left: 6%;
+}
+
+.pictoDeux {
+    width: 5%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.buttonDetail{
+     width: 30%;
+     background: linear-gradient(to bottom right,#A42DB7, #CB28A2, #EF68B5);
+     height: 100px;
+     color: white;
+     font-size: 4em;
+     font-family: Designosaur;
+     border: none;
+     
+     
+    }
+
+.divButton{
+    width: 95%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5%;
+    margin-bottom: 2%;
 }
