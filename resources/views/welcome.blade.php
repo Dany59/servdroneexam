@@ -37,9 +37,24 @@
     <div class="imgAccueil"></div>
 
     <div class="droneUn">
+        <div class="contientTitreDrone">
         <h2 class="titreDrone">Serv'Drone class 1</h2>      
+</div>
+    <p class="descriptionDroneUn">Offre un package de 10 services dont le ménage assisté par drone avec une garantie de deux ans.</p>
+
+
+
+<div class="contientImage">
+    <div class="imgDrone1">
+        <img class="premierDrone" src="/img/pack anafi 1.png" alt="">
     </div>
-    <p class="descriptionDroneUn">offre un package de 10 services avec une garantie de deux ans.</p>
+
+    <div class="pictos"></div>
+</div>
+
+
+
+</div>
 
 </main>
     
