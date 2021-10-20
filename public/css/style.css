@@ -100,6 +100,15 @@ ul {
     background-size: cover;
 }
 
+.droneTrois {
+    width: 100%;
+    margin-top: 2%;
+   /* margin-right: 5%;*/
+    background-image: url("/img/Home-picture-03.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .titreDrone {
     margin-bottom: 0%;
     width: 95%;
@@ -142,7 +151,6 @@ ul {
     display: flex;
     justify-content: flex-end;
     width: 90%;
-    display: flex;
 }
 
 .pictoUn {
@@ -155,7 +163,6 @@ ul {
     display: flex;
     justify-content: flex-end;
     width: 90%;
-    display: flex;
     margin-left: 6%;
 }
 
@@ -168,9 +175,9 @@ ul {
 .buttonDetail{
      width: 30%;
      background: linear-gradient(to bottom right,#A42DB7, #CB28A2, #EF68B5);
-     height: 100px;
+     height: 120px;
      color: white;
-     font-size: 4em;
+     font-size: 4.8em;
      font-family: Designosaur;
      border: none;
      
@@ -183,4 +190,163 @@ ul {
     justify-content: flex-end;
     margin-top: 5%;
     margin-bottom: 2%;
+}
+
+.droneDeux{
+width: 100%;
+    margin-top: 2%;
+    background-image: url("/img/Home-picture-02.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titreDroneDeux {
+    margin-bottom: 0%;
+    margin-left: 5%;
+    width: 95%;
+}
+
+.descriptionDroneDeux {
+    font-size: 3.6em;
+    width: 70%;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 0%;
+    margin-left: 5%;
+    font-family:PublicSans ;
+}
+
+.pictosDeux{
+    width: 100%;
+}
+
+.divPictoDroneDeux {
+
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
+    margin-left: 5%;
+    
+}
+
+.divPictoDroneDeuxBis {
+
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
+    margin-left: 0%;
+    margin-top: 5%;
+}
+
+.divButtonUn{
+    width: 94%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 6%;
+}
+
+.pictoDroneDeux{
+    width: 5%;
+    margin-left: 5%;
+    margin-top: 10%;}
+
+.pictoDroneDeuxDeux {
+    width: 5%;
+    margin-left: 10%;
+    margin-top: 10%;
+
+}
+
+.pictoDroneDeuxBis{
+    padding-left: 5%;
+}
+
+.pictoDroneDeuxDeuxBis {
+    width: 5%;
+    margin-left: 10%;
+    
+}
+
+
+
+.contientFooter 
+{
+    width: 100%;
+    display: flex;
+    background-color: #494368;
+}
+
+.reseaux {
+    width: 25%;
+    margin-left: 10%;
+    
+}
+
+.twitter {
+    width:fit-content;
+    width:-moz-fit-content;
+    margin-left: 0%;
+}
+
+.nomTwitter {
+    margin-left: 10%;
+    font-size: 2.5em;
+    color: white;
+    width: 70%;
+    font-family: PublicSans;
+}
+
+.twt {
+    margin-top: 1%;
+    font-weight: bold;
+
+}
+
+.contientTwitter {
+    display: flex;
+}
+
+.titreReseaux {
+    margin-top: 5%;
+    margin-bottom: 3%;
+    color: white;
+    width: 100%;
+    font-size: 6em;
+    font-weight: lighter;
+}
+
+footer{
+    margin-top: 2%;
+}
+
+
+.titreNewsletter{
+    width: 25%;
+}
+.newletters {
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 5%;
+    color: white;
+    width: 100%;
+    font-size: 6em;
+    font-weight: lighter;
+    margin-bottom: 5%;
+}
+
+.champMail {
+    display: flex;
+    
+    
+}
+
+.mail {
+    margin-left: 30%;
+    width: 100%;
+    height: 30px;
+}
+
+
+.envoiAbsolute {
+    position: absolute;
 }
