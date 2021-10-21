@@ -141,43 +141,66 @@
 </main>
 
 <footer>
-    <div class="contientFooter">
-        <div class="reseaux">
-            <h2 class="titreReseaux">RESEAUX SOCIAUX</h2>
-            <div class="contientTwitter">
-            <div class="twitter">
-                <img src="/img/Twitter.png" alt="">
+   <div class="footerLeft">
+       <div class="titreReseaux">
+           <h2 class="reseauxSociaux">Réseaux Sociaux</h2>
+       </div>
+       <div class="listeReseau">
+                <div class="reseau">
+                    <div class="imgReseau">
+                    <img src="/img/twitter.png" alt="">
+                    </div>
+                    <p class="nomReseau">@Serv'drone</p>
+                </div>
+                <div class="reseau">
+                    <div class="imgReseau">
+                        <img src="/img/instagram.png" alt="">
+                    </div>
+                    <p class="nomReseau">Serv'drone_Off</p>
             </div>
-                <div class="nomTwitter">
-                <p class="twt">@Serv'Drone</p>
-</div>
-</div>
-<div class="contientTwitter">
-            <div class="twitter">
-                <img src="/img/instagram.png" alt="">
+            <div class="reseau">
+                <div class="imgReseau">
+                    <img src="/img/facebook.png" alt="">
+                </div>
+                <p class="nomReseau">Serv'drone</p>
             </div>
-                <div class="nomTwitter">
-                <p class="twt">Serv'Drone_off</p>
-</div>
-</div>
-<div class="contientTwitter">
-            <div class="twitter">
-                <img src="/img/facebook.png" alt="">
-            </div>
-                <div class="nomTwitter">
-                <p class="twt">Serv'Drone</p>
-</div>
-</div>
-            </div>
-            <div class="titreNewsletter">
-            <h2 class="newletters">Newsletter</h2>
-            <div class="contientNewsletter">
-                <div class="champMail"></div>
-            <input class="mail" type="email" placeholder="entrez votre adresse mail">
-            <button type="submit" class="envoiAbsolute"> S'ABONNER</button>
-</div>
-</div>
         </div>
+        </div>
+
+        <div class="footerMid">
+            <div class="titreNews">
+                <h2 class="newsletter">Newsletter</h2>
+            </div>
+            <form class="formNews" action="" method="POST">
+            <input class="adressMail" type="mail" placeholder="Entrez votre adresse mail">
+            <button class="btnNews">S'abonner</button>
+            </form>
+            <div class="cguCgv">
+                <p class="espaceCgu">CGU</p>
+                <p class="espaceCgu">|</p>
+                <p class="espaceCgu">CGV</p>
+                <p class="espaceCgu">|</p>
+                <p class="espaceCgu">Politique de confidentialité</p>
+            </div>
+        </div>
+   
+       <div class="footerRight">
+        <div class="titreReseaux">
+            <h2 class="partenaires">partenaires</h2>
+        </div>
+        <div class="listePartenaires">
+                 <div class="divPartenaire">
+                     <p class="nomReseau">@Serv'drone</p>
+                 </div>
+                 <div class="divPartenaire">
+                     <p class="nomReseau">Serv'drone_Off</p>
+             </div>
+             <div class="divPartenaire">
+                 <p class="nomReseau">Serv'drone</p>
+             </div>
+         </div>
+         </div>
+       </div>
 
 </footer>
     
