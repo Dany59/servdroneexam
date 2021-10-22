@@ -420,18 +420,130 @@ width: 100%;
 .equipe {
     width: 100%;
     display: flex;
+    
 }
 
-.textEquipe {
+.divTextEquipe {
     width: 50%;
+    background-color: #FFF6F2;
 }
 
 .paraEquipe {
     font-size: 3em;
-    padding-top: 5%;
+    margin-top: 14%;
+    font-family: PublicSans;
+    margin-left: 5%;
+    font-weight: bold;
+
 }
 
-.imgEquipe
-{
-    width:50%;
+.div1916 {
+    width: 100%;
+    display: flex;
+    margin-top: 5%;
+}
+
+.img1916 {
+    width: 50%;
+}
+
+.imgAvion1916 {
+    width: 100%;
+}
+
+.text1916 {
+    width: 50%;
+    background-color: #FFF6F2;
+}
+
+.para1916 {
+    font-size: 3em;
+    margin-left: 5%;
+    font-family: PublicSans;
+    margin-right: 5%;
+    margin-top: 14%;
+    font-weight: bold;
+    
+}
+
+.div1930 {
+    width: 100%;
+    display: flex;
+}
+
+.text1930 {
+    width: 50%;
+    background-color: #FFF6F2;
+}
+
+.para1930 {
+    font-size: 3em;
+    margin-left: 5%;
+    font-family: PublicSans;
+    margin-right: 5%;
+    margin-top: 14%;
+    font-weight: bold;
+}
+
+.img1930 {
+    width: 50%;
+}
+
+.imgAvion1930 {
+    width: 100%;
+}
+
+.div2000 {
+    width: 100%;
+    display: flex;
+}
+
+.img2000 {
+    width: 50%;
+}
+
+.imgAvion2000 {
+    width: 100%;
+}
+
+.text2000 {
+    width: 50%;
+    background-color: #FFF6F2;
+}
+
+.para2000 {
+    font-size: 3em;
+    margin-left: 5%;
+    font-family: PublicSans;
+    margin-right: 5%;
+    margin-top: 14%;
+    font-weight: bold;
+    
+}
+
+.div2021 {
+    width: 100%;
+    display: flex;
+}
+
+.text2021 {
+    width: 50%;
+    background-color: #FFF6F2;
+}
+
+.para2021 {
+    font-size: 3em;
+    margin-left: 5%;
+    font-family: PublicSans;
+    margin-right: 5%;
+    margin-top: 14%;
+    font-weight: bold;
+}
+
+.img2021 {
+    width: 50%;
+}
+
+.imgAvion2021 {
+    width: 100%;
 }
