@@ -1,0 +1,24 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class pagesController extends Controller
+{
+    public function histoire(){
+        return view('pages.histoire');
+}   
+    public function contacts(){
+        return view('pages.contacts');
+}
+public function evenements(){
+    return view('pages.evenements');
+}
+public function panier(){
+    return view('pages.panier');
+}
+public function profil(){
+    return view('pages.profil');
+}
+}

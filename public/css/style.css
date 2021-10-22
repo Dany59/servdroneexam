@@ -269,7 +269,7 @@ width: 100%;
 
 
 
-footer {
+.contientFooter {
     background-color: #494368;
     width: 100%;
     display: flex;
@@ -386,4 +386,52 @@ footer {
     
         width: 100%;
         margin-top: 5%;
+}
+
+.nomPartenaire {
+    text-align: right;
+   
+    color: white;
+    font-family: PublicSans;
+    font-size: 2em;
+    margin-bottom: 10%;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 2%;
+}
+
+.copyrights {
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    font-family: PublicSans;
+}
+
+
+/******************************************************HISTOIRE*******************************************************************/
+
+.histoire {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 10em;
+    font-family: Australia;
+}
+
+.equipe {
+    width: 100%;
+    display: flex;
+}
+
+.textEquipe {
+    width: 50%;
+}
+
+.paraEquipe {
+    font-size: 3em;
+    padding-top: 5%;
+}
+
+.imgEquipe
+{
+    width:50%;
 }

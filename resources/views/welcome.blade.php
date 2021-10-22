@@ -17,9 +17,9 @@
             <ul>
                
                 <li><a>ACCUEIL</a></li>
-                <li><a href="">HISTOIRE</a></li>
-                <li><a href="">CONTACT</a></li>
-                <li><a href="">EVENEMENT</a></li>
+                <li><a href="/histoire">HISTOIRE</a></li>
+                <li><a href="/contacts">CONTACT</a></li>
+                <li><a href="/evenements">EVENEMENTS</a></li>
                 
             </ul>
 </div>
@@ -141,6 +141,7 @@
 </main>
 
 <footer>
+    <div class="contientFooter">
    <div class="footerLeft">
        <div class="titreReseaux">
            <h2 class="reseauxSociaux">Réseaux Sociaux</h2>
@@ -190,17 +191,19 @@
         </div>
         <div class="listePartenaires">
                  <div class="divPartenaire">
-                     <p class="nomReseau">@Serv'drone</p>
+                     <p class="nomPartenaire">easy drone</p>
                  </div>
                  <div class="divPartenaire">
-                     <p class="nomReseau">Serv'drone_Off</p>
+                     <p class="nomPartenaire">ct drone</p>
              </div>
              <div class="divPartenaire">
-                 <p class="nomReseau">Serv'drone</p>
+                 <p class="nomPartenaire">drone moi la main</p>
              </div>
          </div>
          </div>
        </div>
+       <p class="copyrights">SERV’DRONE - © 2021</p>
+
 
 </footer>
     
