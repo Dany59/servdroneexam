@@ -21,4 +21,17 @@ public function panier(){
 public function profil(){
     return view('pages.profil');
 }
+
+public function cgu(){
+    return view('pages.cgu');
+}
+
+public function cgv(){
+    return view('pages.cgv');
+}
+
+public function politique(){
+    return view('pages.politique');
+}
+
 }

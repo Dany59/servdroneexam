@@ -117,11 +117,11 @@
                         <button class="btnNews">S'abonner</button>
                         </form>
                         <div class="cguCgv">
-                            <p class="espaceCgu">CGU</p>
+                            <p class="espaceCgu"><a href="/cgu">CGU</a></p>
                             <p class="espaceCgu">|</p>
-                            <p class="espaceCgu">CGV</p>
+                            <p class="espaceCgu"><a href="/cgv">CGV</a></p>
                             <p class="espaceCgu">|</p>
-                            <p class="espaceCgu">Politique de confidentialité</p>
+                            <p class="espaceCgu"><a href="/politique">Politique de confidentialité</a></p>
                         </div>
                     </div>
                
@@ -146,5 +146,6 @@
             
             
             </footer>
-</body>
-</html>
+                
+            </body>
+            </html>

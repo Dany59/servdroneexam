@@ -547,3 +547,147 @@ width: 100%;
 .imgAvion2021 {
     width: 100%;
 }
+
+/**************************************EVENEMENTS******************************************************/
+
+.titreEvenement {
+    width: 95%;
+    display: flex;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 10em;
+    font-family: Australia;
+    
+}
+
+.contientEvent {
+
+    width: 100%;
+    background-image: url(/img/Event-01.png);
+    height: 630px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.cadreEvent {
+    width: 60%;
+    background-color: #A42DB7;
+    height: 250px;
+    opacity: 50%;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.dateEvent {
+    display: flex;
+    align-items: flex-end;
+    color: black;
+    opacity: 100%;
+}
+
+
+/***************************CGU/CGV/Politique de confidentialité************************************/
+
+
+.titrePageCgu {
+
+    width: 95%;
+    margin-left: 5%;
+    text-transform: uppercase;
+    font-size: 10em;
+    font-family: Australia;
+    
+
+}
+
+.titreLorem {
+
+
+    color: black;
+    font-family: Australia;
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 5%;
+    font-weight: lighter;
+    }
+    
+
+.leLorem
+    {
+
+
+        color: black;
+        font-family: PublicSans;
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        margin-top: 10%;
+        margin-left: 5%;
+        font-weight: bold;
+        
+        }
+
+
+.paraCgu {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 2.3em;
+    font-family: PublicSans;
+    font-weight: bold;
+}
+
+
+.leLorem2 {
+
+    color: black;
+    font-family: PublicSans;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+
+
+/********************************************CONTACTS*************************************************/
+
+
+.backgroundContact {
+    background-image:url(/img/Contact_trans1.jpg);
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    
+}
+
+.formulaireContact{
+    width: 90%;
+    margin: auto;
+}
+
+.nomPrenom {
+    display: flex;
+    width: 100%;
+}
+
+.nomFormContact
+{
+    width: 50%;
+    font-size: 3em;
+    font-family: PublicSans;
+    margin-top: 5%;
+    
+}
+
+.labelNom {
+    display:block
+}
+
+.inputNom {
+    width: 70%;
+    height: 50%;
+}

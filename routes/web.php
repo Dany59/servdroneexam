@@ -23,5 +23,9 @@ Route::get ('/contacts',[pagesController::class, 'contacts']);
 Route::get ('/evenements',[pagesController::class, 'evenements']);
 Route::get ('/panier',[pagesController::class, 'panier']);
 Route::get ('/profil',[pagesController::class, 'profil']);
+Route::get ('/cgu',[pagesController::class, 'cgu']);
+Route::get ('/cgv',[pagesController::class, 'cgv']);
+Route::get ('/politique',[pagesController::class, 'politique']);
+
 
 
