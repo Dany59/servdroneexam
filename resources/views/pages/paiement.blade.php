@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/style.css">
     <title>Paiement</title>
 </head>
 <body>
@@ -33,7 +34,44 @@
     </header>
     
 
-    
+    <main>
+
+        <div class="contientPaiement">
+            <div class="nomPrenomAdresse">
+                <div class="divPaiementNom">
+                <label for="name" class="paiementNom">Nom</label>
+                <input type="text" class="inputNomPay" name="nom_client">
+                </div>
+
+                <div class="divPaiementPrenom">
+                    <label for="name" class="paiementPrenom">Prenom</label>
+                    <input type="text" class="inputPrenomPay" name="prenom_client">
+                </div>
+                <div class="divPaiementAdresse">
+                    <label for="name" class="paiementAdresse">Adresse</label>
+                    <input type="text" class="inputAdressePay" name="adresse_client">
+                </div>
+            </div>
+
+            <div class="complementAdresse">
+                <div class="codePostalPaiement">
+                    <label for="" class="codepostalLabel">code postal</label>
+                    <input class="inputCodePostal" type="text" name="code_postal">
+
+                </div>
+                <div class="villePaiement">
+                    <label for="" class="villeLabel">Ville</label>
+                    <input class="inputVille" type="text" name="code_postal">
+
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+
+
 
     <footer>
         <div class="contientFooter">

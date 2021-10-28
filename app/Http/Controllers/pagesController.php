@@ -34,4 +34,9 @@ public function politique(){
     return view('pages.politique');
 }
 
+public function paiement(){
+    return view('pages.paiement');
+}
+
+
 }
