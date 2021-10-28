@@ -14,12 +14,12 @@
         <img class="logo" src="\img\Frame.svg" alt="logo serv'drone">
 </div>
         <div class="navCenter">
-            <ul>
+            <ul class="ulNav">
                
-                <li><a>ACCUEIL</a></li>
-                <li><a href="/histoire">HISTOIRE</a></li>
-                <li><a href="/contacts">CONTACT</a></li>
-                <li><a href="/evenements">EVENEMENTS</a></li>
+                <li class="liNav"><a>ACCUEIL</a></li>
+                <li class="liNav"><a href="/histoire">HISTOIRE</a></li>
+                <li class="liNav"><a href="/contacts">CONTACT</a></li>
+                <li class="liNav"><a href="/evenements">EVENEMENTS</a></li>
                 
             </ul>
 </div>

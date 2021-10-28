@@ -55,7 +55,7 @@ nav {
 
 }
 
-li {
+.liNav {
     list-style-type: none;
     font-size: 3rem;
     font-family: 'Australia Title';
@@ -65,7 +65,7 @@ li {
     
 }
 
-ul {
+.ulNav {
     display: flex;
     
 }
@@ -656,17 +656,42 @@ width: 100%;
 /********************************************CONTACTS*************************************************/
 
 
+.pageContact{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    width: 90%;
+    margin-left: 10%;
+    text-transform: uppercase;
+    font-size: 13em;
+    font-family: Australia;
+    font-weight:200;
+    
+
+}
+
+.ecrivezNous {
+    margin-top: 0%;
+    width: 90%;
+    margin-left: 10%;
+    text-transform: uppercase;
+    font-size: 5em;
+    font-family: Australia;
+    color: black;
+    font-weight:200;
+
+
+}
+
 .backgroundContact {
     background-image:url(/img/Contact_trans1.jpg);
     background-size: cover;
-    height: auto;
     width: 100%;
     
 }
 
 .formulaireContact{
     width: 90%;
-    margin: auto;
+    margin-left: 10%;
 }
 
 .nomPrenom {
@@ -677,17 +702,202 @@ width: 100%;
 .nomFormContact
 {
     width: 50%;
-    font-size: 3em;
     font-family: PublicSans;
     margin-top: 5%;
+    font-weight: bold;
+    text-transform: uppercase;
     
 }
 
 .labelNom {
+    font-size: 4em;
     display:block
 }
 
 .inputNom {
     width: 70%;
-    height: 50%;
+    height: 60px;
+    margin-bottom: 3%;
+    font-size: 3em;
+
+}
+
+
+.test {
+    margin-top: 0%!important;
+}
+
+
+.divMail {
+    width: 100%;
+}
+
+.labelMail {
+    font-size: 4em;
+    font-family: PublicSans;
+    margin-top: 5%;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    
+}
+
+.inputMail{
+    width: 85%;
+    height: 60px;
+    font-size: 3em;
+}
+
+
+.divMess {
+    width: 100%;
+}
+
+.labelMess {
+    font-size: 4em;
+    font-family: PublicSans;
+    margin-top: 5%;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    
+}
+
+.inputmess {
+        width: 85%;
+        margin-bottom: 5%;
+        height: 300px;
+        resize: none;
+        font-size: 4em;
+
+    
+}
+
+.checkboxEnvoi {
+    width: 100%;
+    display: flex;
+}
+
+.checkboxBlock {
+    width: 50%;
+    display: block;
+}
+
+.checkboxPolitique {
+    display: flex;
+}
+
+
+.jacceptePo {
+    color: white;
+    font-size: 2.5em;
+    font-family: PublicSans;
+}
+
+.agrandiCheckbox {
+    
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.checkboxCgv {
+    display: flex;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+
+.souligne {
+    text-decoration: underline;
+}
+
+
+.envoiMessage {
+    width: 50%;
+    height: 60px;
+    background-color: #494368;
+    border: none;
+    color: white;
+    margin-left: 50%;
+    font-size: 3em;
+    font-family: PublicSans;
+    font-weight: bold;
+}
+
+.boutonEnvoiMessage {
+    width: 35%;
+    justify-self: flex-end;
+}
+
+.envoiMessage:hover {
+    background-color: white;
+    color: #494368;
+    transition-duration: 0.3s;
+
+}
+
+
+.titreAssistance {
+    margin-left: 10%;
+    color: white;
+}
+
+.divManuel {
+    display: flex;
+    width: 100%;
+    padding-bottom: 10%;
+}
+
+.divTitreAssistance {
+    width: 50%;
+    margin-left: 5%;
+}
+
+.divTelecharger {
+    margin-left: 5%;
+    width: 50%;
+    margin-top: 7%;
+    position: relative;
+}
+
+.telecharger {
+    cursor: pointer;
+    color: white;
+    font-size: 3em;
+    list-style: none;
+    background-color: #494368;
+    font-family: PublicSans;
+    width: 70%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.deroulant {
+    cursor: pointer;
+    font-size: 2em;
+    display: none;
+    width: 20%;
+    margin-top: 1%;
+
+}
+
+
+.divTelecharger:hover .deroulant {
+    list-style: none;
+    display: block;
+    color: white;
+    background-color: #494368;
+    position: absolute;
+}
+
+.deroulant li {
+
+    padding-top: 5%;
+    padding-left: 5%;
+    width: 100%;
 }

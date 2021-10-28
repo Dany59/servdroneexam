@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,12 +14,12 @@
         <img class="logo" src="\img\Frame.svg" alt="logo serv'drone">
 </div>
         <div class="navCenter">
-            <ul>
+            <ul class="ulNav">
                
-                <li><a href="/">ACCUEIL</a></li>
-                <li><a href="/histoire">HISTOIRE</a></li>
-                <li><a href="/contacts">CONTACT</a></li>
-                <li><a href="/evenements">EVENEMENTS</a></li>
+                <li class="liNav"><a href="/">ACCUEIL</a></li>
+                <li class="liNav"><a href="/histoire">HISTOIRE</a></li>
+                <li class="liNav"><a href="/contacts">CONTACT</a></li>
+                <li class="liNav"><a href="/evenements">EVENEMENTS</a></li>
                 
             </ul>
 </div>
@@ -31,7 +31,12 @@
             </div>
         </nav>
     </header>
-    <div class="backgroundContact">
+    
+    
+    <main class="backgroundContact">
+
+        <h1 class="pageContact">Contact</h1>
+        <h2 class="ecrivezNous">ecrivez-nous</h2>
                 
     <form class="formulaireContact" action="" method="post">
         <div class="nomPrenom">
@@ -39,15 +44,62 @@
                 <label class="labelNom" for="name" class="nomContact">Nom</label>
                 <input class="inputNom" name="nom" type="text">
             </div>
+            <div class="nomFormContact">
+                <label class="labelNom" for="name" class="nomContact">Prénom</label>
+                <input class="inputNom" name="nom" type="text">
+            </div>
         </div>
+        <div class="divMail">
+            <label class="labelMail" for="mail">Email</label>
+            <input class="inputMail" type="mail" name="email">
+        </div>
+
+        <div class="divMess">
+            <label for="" class="labelMess">Message</label>
+            <textarea class="inputmess" name="message" id="" cols="30" rows="10"></textarea>
+        </div>
+
+        <div class="checkboxEnvoi">
+            <div class="checkboxBlock">
+            <div class="checkboxPolitique">
+            <input class="agrandiCheckbox" type="checkbox" name="politique de confidentialité">
+            <label class="jacceptePo" for="">j'accepte la <a class="souligne" href="/politique">politique de confidentialité</a></label>
+        </div>
+            <div class="checkboxCgv">
+            <input class="agrandiCheckbox" type="checkbox" name="cgv">
+            <label for="" class="jacceptePo">j'accepte les <a href="/cgv" class="souligne">CGU/CGV</a></label>
+            </div>
+        </div>
+        <div class="boutonEnvoiMessage">
+            <button name="submit" class="envoiMessage">ENVOYER</button>
+        </div>
+        </div>
+        
     </form>
+
+    <div class="divManuel">
+        <div class="divTitreAssistance">
+    <h2 class="titreAssistance">Assistance</h2>
+        </div>
+        <ul class="divTelecharger">
+            <li class="telecharger">Télécharger le manuel d'utilisation</li>
+            <ul class="deroulant">
+                <li class=""><a href="/img/PatignyCV.pdf" download="PatignyCV">serv'drone class 1</a></li>
+                <li class=""><a href="/img/PatignyCV.pdf" download="PatignyCV">serv'drone class 2</a></li>
+                <li class=""><a href="/img/PatignyCV.pdf" download="PatignyCV">serv'drone class 3</a></li>
+        </ul>
+       
+
+
+        </ul>
     </div>
+    </main>
 
 
 
     
-    <footer>
-        <div class="contientFooter">
+    <footer class="test">
+        <div class="contientFooter test">
        <div class="footerLeft">
            <div class="titreReseaux">
                <h2 class="reseauxSociaux">Réseaux Sociaux</h2>
