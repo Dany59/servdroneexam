@@ -711,44 +711,118 @@ width: 100%;
 
 
 
-.contientDeuxPresse {
+
+
+
+
+
+.cadreEvent3:hover {
+    opacity: 100%;
+    transition-duration: 0.5s;
+}
+
+.cadreEvent2:hover {
+    opacity: 100%;
+    transition-duration: 0.5s;
+}
+
+.cadreEvent:hover {
+    opacity: 100%;
+    transition-duration: 0.5s;
+}
+
+
+
+.contientDeuxArticle {
     width: 100%;
     display: flex;
 
-
 }
 
+.premierArticle {
 
-.premierArticlePresse {
-    display: flex;
     width: 50%;
-    background-image: url(/img/article-01.png);
-    background-repeat: no-repeat;
-    background-size:cover ;
+    background-image: url(/img/Article-01.png);
     height: 640px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.titrepresse1 {
-    color: black;
-    font-size: 4em;
+
+.cadreRose {
+    background-color: #FF71B2;
+    height: 200px;
+    opacity: 50%;
+    position: relative;
+    top: 68.7%;
+}
+
+.leMonde {
+    margin-top: 0%;
     margin-bottom: 0%;
+    color: black;
     margin-left: 5%;
+    font-size: 6em;
+    position: relative;
+    top: 40%;
 }
 
-.descriptionPresse {
-    margin-left: 5%;
-    font-size: 3em;
+.descriptionArticle {
+    font-size: 4em;
     font-family: Australia;
     text-transform: uppercase;
+    position: relative;
+    top: 35%;
+    margin-left: 5%;
 }
 
-.fondRose {
+
+
+
+.deuxiemeArticle
+{
+
+    width: 50%;
+    background-image: url(/img/Article-02.png);
+    height: 640px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+.contientDeuxArticle2{
     width: 100%;
-    opacity: 50%;
-    background-color: #FF71B2;
-    height: 50px;
-
+    display: flex;
+    margin-top: 5%;
 }
+
+
+.troisiemeArticle
+{
+
+    width: 50%;
+    background-image: url(/img/Article-03.png);
+    height: 640px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.quatriemeArticle
+{
+
+    width: 50%;
+    background-image: url(/img/Article-04.png);
+    height: 640px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
 /***************************CGU/CGV/Politique de confidentialité************************************/
 
 
