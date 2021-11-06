@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/css/style.css">
-    <title>Evènements</title>
+    <title>Details</title>
 </head>
 <body>
+
     <header>
         <nav>
         <div class="navLeft">
@@ -32,47 +33,48 @@
         </nav>
     </header>
 
-    <h1 class="titreEvenement">Evenements</h1>
+    <main class="contientDetail">
 
-    <div class="contientEvent">
-        <div class="cadreEvent">
-        </div>
-        <h2 class="dateEvent">14.15.16 juin 2021</h2>
-        <h2 class="detailEvent">SALON DU DRONE ET DE L’INNOVATION</h2>
-    </div>
-
-    <div class="contientEvent2">
-        <div class="cadreEvent2">
-        </div>
-        <h2 class="dateEvent2">04,05,06 septembre 2021</h2>
-        <h2 class="detailEvent2">SALON DES SERVICES à LA PERSONNE</h2>
-    </div>
-
-
-
-    <div class="contientEvent3">
-        <div class="cadreEvent3">
-        </div>
-        <h2 class="dateEvent3">23 ET 24 NOVEMBRE 2021</h2>
-        <h2 class="detailEvent3"> SALON DES SERVICES à LA PERSONNE
-            ET DE L’EMPLOI à DOMICILE</h2>
-    </div>
-
-
-
-    <h2 class="titrePresse">Presse</h2>
-
-
-    <div class="contientDeuxPresse">
-        <div class="premierArticlePresse">
-            <div class="fondRose"><h2 class="titrepresse1">Le monde</h2>
-                <p class="descriptionPresse">la crise sanitaire dynamise la livraison par drone</p></div>
-
+        <div class="imageBlock">
+            <img src="/img/photodetail1.jpg" alt="">
+            <img src="/img/photodetail2.jpg" alt="">
+            <img src="/img/photodetail3.jpg" alt="">
         </div>
 
-    </div>
+        <div class="grandeImgDetail">
+            <img src="/img/photodetail4.jpg" alt="" class="imgTestDetail">
+        </div>
+
+        <div class="divTextDetails">
+            <h1 class="titreDetails">serv'drone plus</h1>
+            <p class="paraDetails">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux </p>
+            <p class="descriptionDetail">Description description description</p>
+            <p class="paraDetails">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux </p>
+
+            <div class="divcontientQuantite">
+            <form class="quantitéDetails">
+                <label for="">quantité</label>
+                <input type="number" name="quantite" id="">
+
+                <div class="disponibilite">
+                <p class="dispoDetails">disponibilité</p>
+                <p class="enStock">en stock</p>
+                </div>
+                <div class="contientAjoutPanier">
+                    <div class="divAjoutpanier">
+                <input type="submit" value="ajouter au panier" class="ajoutPanier">
+                    </div>
+                    <div class="prixProduit">
+                        <p class="prix">399€</p>
+                    </div>
+                </div>
+            </form>
+                </div>
+            </div>
 
 
+
+    </main>
 
 
     <footer>

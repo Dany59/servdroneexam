@@ -61,13 +61,13 @@ nav {
     font-family: 'Australia Title';
     padding-left: 10%;
     color: white;
-    
-    
+
+
 }
 
 .ulNav {
     display: flex;
-    
+
 }
 
 .navLeft {
@@ -88,7 +88,7 @@ nav {
     width: 10%;
     margin: 1% 0 0 1.2%;
 
-    
+
 }
 
 .droneUn {
@@ -180,8 +180,8 @@ nav {
      font-size: 4.8em;
      font-family: Designosaur;
      border: none;
-     
-     
+
+
     }
 
 .divButton{
@@ -226,7 +226,7 @@ width: 100%;
     justify-content: flex-start;
     width: 90%;
     margin-left: 5%;
-    
+
 }
 
 .divPictoDroneDeuxBis {
@@ -264,7 +264,7 @@ width: 100%;
 .pictoDroneDeuxDeuxBis {
     width: 5%;
     margin-left: 10%;
-    
+
 }
 
 
@@ -306,8 +306,8 @@ width: 100%;
     font-weight: bold;
     text-transform: uppercase;
     margin-top: 1%;
-    
-    
+
+
 }
 
 .listeReseaux {
@@ -383,14 +383,14 @@ width: 100%;
 }
 
 .divPartenaire{
-    
+
         width: 100%;
         margin-top: 5%;
 }
 
 .nomPartenaire {
     text-align: right;
-   
+
     color: white;
     font-family: PublicSans;
     font-size: 2em;
@@ -420,7 +420,7 @@ width: 100%;
 .equipe {
     width: 100%;
     display: flex;
-    
+
 }
 
 .divTextEquipe {
@@ -463,7 +463,7 @@ width: 100%;
     margin-right: 5%;
     margin-top: 14%;
     font-weight: bold;
-    
+
 }
 
 .div1930 {
@@ -518,7 +518,7 @@ width: 100%;
     margin-right: 5%;
     margin-top: 14%;
     font-weight: bold;
-    
+
 }
 
 .div2021 {
@@ -558,7 +558,7 @@ width: 100%;
     text-align: center;
     font-size: 10em;
     font-family: Australia;
-    
+
 }
 
 .contientEvent {
@@ -572,7 +572,7 @@ width: 100%;
 
 .cadreEvent {
     width: 60%;
-    background-color: #A42DB7;
+    background-color: #7A28CB;
     height: 250px;
     opacity: 50%;
     display: flex;
@@ -581,13 +581,174 @@ width: 100%;
 
 
 .dateEvent {
-    display: flex;
-    align-items: flex-end;
+    width: 50%;
+    align-self: center;
+    margin-top: 20%;
+    position: absolute;
     color: black;
     opacity: 100%;
+    margin-left: 5%;
+    font-size: 5em;
+
 }
 
 
+.detailEvent
+{
+    width: 50%;
+    align-self: center;
+    margin-top: 20%;
+    position: absolute;
+    color: black;
+    opacity: 100%;
+    margin-left: 5%;
+    margin-top: 30%;
+    font-size: 6em;
+
+}
+
+.contientEvent2 {
+
+    width: 100%;
+    margin-top: 5%;
+    background-image: url(/img/Event-02.png);
+    height: 630px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.cadreEvent2 {
+    width: 60%;
+    background-color: #7A28CB;
+    height: 250px;
+    opacity: 50%;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.dateEvent2 {
+    width: 50%;
+    align-self: center;
+    margin-top: 20%;
+    position: absolute;
+    color: black;
+    opacity: 100%;
+    margin-left: 5%;
+    font-size: 5em;
+
+}
+
+
+.detailEvent2
+{
+    width: 50%;
+    align-self: center;
+    margin-top: 20%;
+    position: absolute;
+    color: black;
+    opacity: 100%;
+    margin-left: 5%;
+    margin-top: 30%;
+    font-size: 6em;
+
+}
+
+.contientEvent3 {
+
+    width: 100%;
+    margin-top: 5%;
+    background-image: url(/img/Event-03.png);
+    height: 630px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.cadreEvent3 {
+    width: 60%;
+    background-color: #7A28CB;
+    height: 250px;
+    opacity: 50%;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.dateEvent3 {
+    width: 50%;
+    align-self: center;
+    margin-top: 17%;
+    position: absolute;
+    color: black;
+    opacity: 100%;
+    margin-left: 5%;
+    font-size: 5em;
+
+}
+
+
+.detailEvent3
+{
+    width: 50%;
+    align-self: center;
+    position: absolute;
+    color: black;
+    opacity: 100%;
+    margin-left: 5%;
+    margin-top: 28%;
+    font-size: 5.5em;
+
+}
+
+
+.titrePresse {
+    width: 95%;
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+}
+
+
+
+.contientDeuxPresse {
+    width: 100%;
+    display: flex;
+
+
+}
+
+
+.premierArticlePresse {
+    display: flex;
+    width: 50%;
+    background-image: url(/img/article-01.png);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    height: 640px;
+}
+
+.titrepresse1 {
+    color: black;
+    font-size: 4em;
+    margin-bottom: 0%;
+    margin-left: 5%;
+}
+
+.descriptionPresse {
+    margin-left: 5%;
+    font-size: 3em;
+    font-family: Australia;
+    text-transform: uppercase;
+}
+
+.fondRose {
+    width: 100%;
+    opacity: 50%;
+    background-color: #FF71B2;
+    height: 50px;
+
+}
 /***************************CGU/CGV/Politique de confidentialité************************************/
 
 
@@ -598,7 +759,7 @@ width: 100%;
     text-transform: uppercase;
     font-size: 10em;
     font-family: Australia;
-    
+
 
 }
 
@@ -613,7 +774,7 @@ width: 100%;
     margin-left: 5%;
     font-weight: lighter;
     }
-    
+
 
 .leLorem
     {
@@ -626,7 +787,7 @@ width: 100%;
         margin-top: 10%;
         margin-left: 5%;
         font-weight: bold;
-        
+
         }
 
 
@@ -665,7 +826,7 @@ width: 100%;
     font-size: 13em;
     font-family: Australia;
     font-weight:200;
-    
+
 
 }
 
@@ -686,7 +847,7 @@ width: 100%;
     background-image:url(/img/Contact_trans1.jpg);
     background-size: cover;
     width: 100%;
-    
+
 }
 
 .formulaireContact{
@@ -706,7 +867,7 @@ width: 100%;
     margin-top: 5%;
     font-weight: bold;
     text-transform: uppercase;
-    
+
 }
 
 .labelNom {
@@ -739,7 +900,7 @@ width: 100%;
     font-weight: bold;
     text-transform: uppercase;
     display: block;
-    
+
 }
 
 .inputMail{
@@ -760,7 +921,7 @@ width: 100%;
     font-weight: bold;
     text-transform: uppercase;
     display: block;
-    
+
 }
 
 .inputmess {
@@ -770,7 +931,7 @@ width: 100%;
         resize: none;
         font-size: 4em;
 
-    
+
 }
 
 .checkboxEnvoi {
@@ -795,7 +956,7 @@ width: 100%;
 }
 
 .agrandiCheckbox {
-    
+
     width: 30px;
     height: 30px;
     margin-right: 20px;
@@ -873,7 +1034,7 @@ width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 
@@ -903,6 +1064,8 @@ width: 100%;
 }
 
 
+/********************************************Paiement*******************************************************/
+
 .contientPaiement {
     width: 100%;
     background-color: #FFE3D7;
@@ -921,7 +1084,7 @@ width: 100%;
     width: 20%;
     margin-top: 5%;
 
-    
+
 }
 
 .paiementNom {
@@ -942,7 +1105,7 @@ width: 100%;
     margin-top: 5%;
     margin-left: 7%;
 
-    
+
 }
 
 .paiementPrenom {
@@ -962,11 +1125,11 @@ width: 100%;
 
 
 .divPaiementAdresse {
-    width: 40%;
+    width: 47%;
     margin-top: 5%;
     margin-left: 7%;
 
-    
+
 }
 
 .paiementAdresse {
@@ -1029,3 +1192,326 @@ width: 100%;
     width: 100%;
     height: 40px;
 }
+
+
+.appartementPaiement {
+    width: 20%;
+    margin-left: 7%;
+}
+
+.appartementLabel {
+    display: block;
+    font-size: 4em;
+    font-family: Australia;
+    text-transform: uppercase;
+}
+
+
+.inputAppartement
+{
+    width: 100%;
+    height: 40px;
+}
+
+
+.lieuPaiement {
+    width: 20%;
+    margin-left: 7%;
+}
+
+.lieuLabel {
+    display: block;
+    font-size: 4em;
+    font-family: Australia;
+    text-transform: uppercase;
+}
+
+
+.inputLieu
+{
+    width: 100%;
+    height: 40px;
+}
+
+
+.divInfosCB {
+
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    display: flex;
+}
+
+
+.codeCB {
+    width: 20%;
+}
+
+.nomCB {
+    width: 20%;
+    margin-left: 7%;
+}
+
+.cryptoCB {
+    width: 20%;
+    margin-left: 7%;
+}
+
+.dateCB{
+    width: 20%;
+    margin-left: 7%;
+}
+
+.numeroCBLabel {
+    display: block;
+    font-size: 4em;
+    font-family: Australia;
+    text-transform: uppercase;
+}
+
+
+.nomCBLabel {
+    display: block;
+    font-size: 4em;
+    font-family: Australia;
+    text-transform: uppercase;
+}
+
+
+.inputnumeroCB
+
+{
+    width: 100%;
+    height: 40px;
+}
+
+
+.inputNomCB
+
+{
+    width: 100%;
+    height: 40px;
+}
+
+
+.cryptoLabel {
+    display: block;
+    font-size: 4em;
+    font-family: Australia;
+    text-transform: uppercase;
+}
+
+
+.inputCrypto
+
+{
+    width: 100%;
+    height: 40px;
+}
+
+.dateLabel {
+    display: block;
+    font-size: 4em;
+    font-family: Australia;
+    text-transform: uppercase;
+}
+
+
+.inputDate
+
+{
+    width: 100%;
+    height: 40px;
+}
+
+
+.champsobligatoire {
+    width: 90%;
+    margin: 2% auto 0 auto;
+    font-size: 2em;
+    font-family: PublicSans;
+    font-weight: bold;
+}
+
+.contientCGUPaiement {
+    width: 90%;
+    margin: 2% auto 0% auto;
+    display: flex;
+}
+
+.cguCgvPaiement {
+    width: 50%;
+}
+
+.checkPolitiquePaiement {
+    width: 25px;
+    height: 25px;
+}
+
+.checkboxPaiement {
+    display: flex;
+}
+
+.labelPolitiquePaiement {
+    align-self: center;
+    font-size: 2em;
+    font-family: Australia;
+    margin-left: 3%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.checkboxPaiementCGU {
+    margin-top: 2%;
+    display: flex;
+}
+
+
+
+
+.paiementSecuBtn {
+    width: 50%;
+    margin-bottom: 5%;
+}
+
+
+.paraSecu {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    width: 30%;
+    margin-left: auto;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: PublicSans;
+}
+
+.btnPaiement {
+    margin-top: 2%;
+    width: 40%;
+    margin-left: 61%;
+    background: linear-gradient(to bottom right,#A42DB7, #CB28A2, #EF68B5);
+    color: white;
+    border: none;
+    height: 100px;
+    font-size: 3em;
+
+}
+
+
+.lienPolitique {
+    color: black;
+    text-decoration: underline;
+}
+
+
+ /***************************************PAGE DETAILS******************************************************************/
+
+
+ .contientDetail {
+     width: 100%;
+     display: flex;
+     margin-top: 5%;
+ }
+
+
+ .imageBlock {
+     margin-left: 3.5%;
+     width: 16%;
+ }
+
+ .grandeImgDetail {
+     width: 30.5%;
+ }
+
+ .imgTestDetail {
+     width: 100%;
+ }
+
+ .divTextDetails {
+     width: 45%;
+ }
+
+ .titreDetails {
+     display: flex;
+     justify-content: flex-end;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    width: 95%;
+    text-transform: uppercase;
+    font-size: 8em;
+    font-family: Australia;
+    font-weight:200;
+ }
+
+
+ .paraDetails {
+     width: 73%;
+     font-size: 2.5em;
+     margin-left: 5%;
+     font-family: Designosaur;
+ }
+
+
+ .descriptionDetail {
+     font-size: 2.5em;
+     font-family: Designosaur;
+     font-weight: bold;
+     margin-left: 5%;
+ }
+
+
+ .quantitéDetails {
+     width: 80%;
+     margin-left: 5%;
+     font-size: 2em;
+     margin-top: 5%;
+     font-family: Designosaur;
+     text-transform: uppercase;
+ }
+
+ .disponibilite {
+     display: flex;
+ }
+
+ .enStock {
+     margin-left: 10%;
+     color: #A42DB7;
+ }
+
+ .divcontientQuantite {
+     width: 100%;
+ }
+
+
+
+ .contientAjoutPanier {
+     width: 100%;
+     display: flex;
+ }
+
+ .divAjoutpanier {
+     width: 80%;
+ }
+
+
+ .ajoutPanier {
+     width: 100%;
+     background: linear-gradient(to bottom right,#A42DB7, #CB28A2, #EF68B5);
+    color: white;
+    height: 90px;
+    font-size: 2em;
+    border: none;
+    font-family: Designosaur;
+ }
+
+
+ .prixProduit {
+     width: 20%;
+ }
+
+
+ .prix {
+     font-size: 2em;
+     margin-left: 70%;
+ }

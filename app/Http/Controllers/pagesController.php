@@ -8,7 +8,7 @@ class pagesController extends Controller
 {
     public function histoire(){
         return view('pages.histoire');
-}   
+}
     public function contacts(){
         return view('pages.contacts');
 }
@@ -38,5 +38,7 @@ public function paiement(){
     return view('pages.paiement');
 }
 
-
+public function details(){
+    return view('pages.details');
+}
 }

@@ -27,6 +27,8 @@ Route::get ('/cgu',[pagesController::class, 'cgu']);
 Route::get ('/cgv',[pagesController::class, 'cgv']);
 Route::get ('/politique',[pagesController::class, 'politique']);
 Route::get ('/paiement',[pagesController::class, 'paiement']);
+Route::get ('/details',[pagesController::class, 'details']);
+
 
 
 
