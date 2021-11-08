@@ -28,6 +28,8 @@ Route::get ('/cgv',[pagesController::class, 'cgv']);
 Route::get ('/politique',[pagesController::class, 'politique']);
 Route::get ('/paiement',[pagesController::class, 'paiement']);
 Route::get ('/details',[pagesController::class, 'details']);
+Route::get ('/inscription',[pagesController::class, 'inscription']);
+Route::get ('/connexion',[pagesController::class, 'connexion']);
 
 
 

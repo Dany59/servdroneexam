@@ -1589,3 +1589,193 @@ width: 100%;
      font-size: 2em;
      margin-left: 70%;
  }
+
+
+
+
+ /**************************************PANIER********************************************************/
+
+
+ .contientPanier {
+     width: 90%;
+     display: flex;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 5%;
+
+ }
+
+
+
+
+ .couleurPanier {
+     margin-top: 0%;
+     background-color: #FFF6F2;
+     width: 100%;
+     height: 500px;
+ }
+
+
+
+.nomArticlePanier {
+    margin-left: 5%;
+    font-size: 10em;
+    font-family: Australia;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 95%;
+}
+
+
+.ContientPanierLeft {
+    width: 60%;
+    background-color: white;
+
+}
+
+
+.imgDescriptionPanier {
+    width: 100%;
+    display: flex;
+}
+
+.imgPanier{
+    width: 40%;
+}
+
+
+.photoPanier {
+    width: 100%;
+}
+
+
+.descriptionPanier {
+    width: 50%;
+    margin-left: 5%;
+}
+
+
+.titrePanier {
+    font-size: 4em;
+    color: black;
+    margin-top: 0%;
+    font-family: PublicSans;
+    font-weight: bold;
+}
+
+.descriptionProduitPanier {
+    font-size: 3em;
+    width: 85%;
+}
+
+.prixPoubelle {
+    display: flex;
+    margin-top: 30%;
+
+}
+
+.prixPanier {
+    font-size: 4em;
+    width: 50%;
+}
+
+
+.poubellePanier {
+    width: 5%;
+    margin-left: 30%;
+    cursor: pointer;
+}
+
+
+
+.contientPanierRight {
+    margin-left: 2%;
+    width: 40%;
+    background-color: white;
+}
+
+
+.centrePanier {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.recapitulatif {
+    color: black;
+    font-size: 3.5em;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Designosaur;
+    font-weight: normal ;
+}
+
+
+.produitRightPanier {
+    font-size: 2.5em;
+    margin-left: 6%;
+    font-family: Designosaur;
+    width: 50%;
+}
+
+
+.flexProduitPrix {
+    display: flex;
+    margin-top: 10%;
+
+}
+
+.prixRightPanier {
+    display: flex;
+    font-size: 2.5em;
+    margin-left: 6%;
+    font-family: Designosaur;
+    width: 50%;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+
+
+.ligneHorizontale {
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+
+
+.flexProduitTotalePrix {
+    display: flex;
+
+}
+
+
+.flexProduitPrix1 {
+    display: flex;
+}
+
+.flexProduitPrix2{
+    display: flex;
+    margin-bottom: 10%;
+}
+
+
+.buttonValidationPanier {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+
+.buttonConfimerPanier {
+    width: 100%;
+    background: linear-gradient(to bottom right,#A42DB7, #CB28A2, #EF68B5);
+    border: none;
+    color: white;
+    height: 50px;
+    font-size: 3em;
+    font-family: PublicSans;
+    text-transform: uppercase;
+
+
+}

@@ -41,4 +41,14 @@ public function paiement(){
 public function details(){
     return view('pages.details');
 }
+
+
+public function inscription(){
+    return view('pages.inscription');
+}
+
+
+public function connexion(){
+    return view('pages.connexion');
+}
 }
