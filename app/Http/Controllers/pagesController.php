@@ -6,49 +6,53 @@ use Illuminate\Http\Request;
 
 class pagesController extends Controller
 {
+
+    public function produits(){
+        return view('shop.produits');
+    }
     public function histoire(){
-        return view('pages.histoire');
+        return view('shop.histoire');
 }
     public function contacts(){
-        return view('pages.contacts');
+        return view('shop.contacts');
 }
 public function evenements(){
-    return view('pages.evenements');
+    return view('shop.evenements');
 }
 public function panier(){
-    return view('pages.panier');
+    return view('shop.panier');
 }
 public function profil(){
-    return view('pages.profil');
+    return view('shop.profil');
 }
 
 public function cgu(){
-    return view('pages.cgu');
+    return view('shop.cgu');
 }
 
 public function cgv(){
-    return view('pages.cgv');
+    return view('shop.cgv');
 }
 
 public function politique(){
-    return view('pages.politique');
+    return view('shop.politique');
 }
 
 public function paiement(){
-    return view('pages.paiement');
+    return view('shop.paiement');
 }
 
 public function details(){
-    return view('pages.details');
+    return view('shop.details');
 }
 
 
 public function inscription(){
-    return view('pages.inscription');
+    return view('shop.inscription');
 }
 
 
 public function connexion(){
-    return view('pages.connexion');
+    return view('shop.connexion');
 }
 }

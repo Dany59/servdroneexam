@@ -923,6 +923,22 @@ width: 100%;
     width: 100%;
 
 }
+.backgroundContact1 {
+    background-image:url(/img/Contact_trans1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 920px;
+
+}
+
+
+.backgroundContact2 {
+    background-image:url(/img/Contact_trans1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 540px;
+
+}
 
 .formulaireContact{
     width: 90%;
@@ -1778,4 +1794,149 @@ width: 100%;
     text-transform: uppercase;
 
 
+}
+
+/****************************************************inscription******************************************/
+
+.fondInscription {
+    background-image: url(/img/Contact_trans1.jpg);
+    width: 100%;
+}
+
+
+
+
+.inscription{
+    margin-top: 0%;
+    margin-left: 5%;
+    font-size: 10em;
+    font-family: Australia;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+.formulaireInscription {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.emailInscription{
+    margin-left: 20%;
+
+}
+
+.labelMailInscription{
+    width: 100%;
+    font-size: 4em;
+    font-family: Australia;
+    text-transform: uppercase;
+    display: block;
+    padding: 0%;
+}
+
+
+.inputMailInscription {
+    width: 62%;
+    height: 30px;
+
+
+}
+
+
+.mdpInscription {
+    margin-top: 5%;
+    margin-left: 20%;
+
+}
+
+.labelMdpInscription {
+    width: 100%;
+    font-size: 4em;
+    font-family: Australia;
+    text-transform: uppercase;
+    display: block;
+    padding: 0%;
+}
+
+
+.inputMdpInscription{
+    width: 62%;
+    height: 30px;
+}
+
+.mdpConfirmInscription {
+    margin-top: 5%;
+    margin-left: 20%;
+
+}
+
+.labelMdpConfirmInscription{
+    width: 100%;
+    font-size: 4em;
+    font-family: Australia;
+    text-transform: uppercase;
+    display: block;
+    padding: 0%;
+}
+
+
+.inputMdpConfirmInscription{
+    width: 62%;
+    height: 30px;
+}
+
+
+.politiqueConfiInscription {
+    display: flex ;
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 20%;
+
+}
+
+
+.checkInscri {
+    width: 20px;
+    height: 20px;
+}
+
+
+.LabelPolitiqueInscription {
+    font-size: 2em;
+    margin-left: 2%;
+    font-family: PublicSans;
+}
+
+
+.boutonInscription {
+    margin-top: 5%;
+    margin-bottom: 0%;
+    margin-left: 20%;
+    width: 50%;
+    height: 50px;
+    background: linear-gradient(to bottom right,#A42DB7, #CB28A2, #EF68B5);
+    border: none;
+    font-size: 3em;
+    font-family: PublicSans;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+
+.paraconnexion {
+    width: 100%;
+    font-size: 2em;
+    margin-left: 20%;
+    font-family: PublicSans;
+
+}
+
+
+.connectez_vous {
+    text-decoration: underline;
 }

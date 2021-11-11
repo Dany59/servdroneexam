@@ -2,6 +2,12 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\pagesController;
+use App\Http\Controllers\clientController;
+use App\Http\Controllers\contactController;
+use App\Http\Controllers\paiementController;
+
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -14,9 +20,11 @@ use App\Http\Controllers\pagesController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+/*Route::get('/', function () {
+    return view('shop.produits');*/
+/*});*/
+Route::get('/', [pagesController::class, 'produits']);
+
 
 Route::get ('/histoire',[pagesController::class, 'histoire']);
 Route::get ('/contacts',[pagesController::class, 'contacts']);
@@ -30,6 +38,16 @@ Route::get ('/paiement',[pagesController::class, 'paiement']);
 Route::get ('/details',[pagesController::class, 'details']);
 Route::get ('/inscription',[pagesController::class, 'inscription']);
 Route::get ('/connexion',[pagesController::class, 'connexion']);
+
+
+Route::post ('/inscription',[clientController::class, 'createClients']);
+Route::post ('/contacts',[contactController::class, 'createContact']);
+Route::post ('/paiement',[paiementController::class, 'createPaiement']);
+Route::post ('/connexion',[clientController::class, 'authenticate']);
+
+
+
+
 
 
 
