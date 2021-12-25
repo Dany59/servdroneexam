@@ -15,13 +15,15 @@ class CreateClientsTable extends Migration
     {
         Schema::create('clients', function (Blueprint $table) {
             $table->id();
-            $table->string("mail")->unique();
-            $table->string("mdp");
-            $table->string("mdpconfirm");
+            $table->string("email")->unique();
+            $table->string("password");
+            $table->string("passwordconfirm");
+            $table->string("nom")->nullable();
+            $table->string("prenom")->nullable();
             $table->boolean('politique_accept');
             $table->boolean('cgu_accept');
             $table->integer("admin")->nullable();
-
+            $table->rememberToken();
             $table->timestamps();
         });
     }

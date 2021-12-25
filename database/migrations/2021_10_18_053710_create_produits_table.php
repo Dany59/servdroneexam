@@ -15,10 +15,20 @@ class CreateProduitsTable extends Migration
     {
         Schema::create('produits', function (Blueprint $table) {
             $table->id();
-            $table->string("nom_produit");
-            $table->string("photo_produit");
-            $table->float("prix");
-            $table->string("description-produit");
+            $table->string('background_image');
+            $table->string("titre_produit");
+            $table->string("description_produit");
+            $table->string("picto1");
+            $table->string("picto2");
+            $table->string("picto3");
+            $table->string("picto4");
+            $table->string("picto5");
+            $table->text("description2");
+            $table->string('photo1');
+            $table->string('photo2');
+            $table->string('photo3');
+            $table->string('photo4');
+            $table->float('prix');
             $table->timestamps();
         });
     }

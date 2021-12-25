@@ -17,10 +17,11 @@
                 <input type="password" class="inputMdpInscription" name="password" required>
                 </div>
                 <div class="buttonInscription">
-                    <input type="submit" value="S'inscrire" class="boutonInscription">
+                    <input type="submit" value="Connexion" class="boutonInscription">
                 </div>
 
         </form>
     </div>
     </main>
 @endsection
+

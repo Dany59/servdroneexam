@@ -2,9 +2,17 @@
 @section('content')
     <main class="testpanier">
 
+
+        @if (Auth::user('login'))
+
+
+
+
+         <input type="hidden" value="">
+
         <div class="contientPanier">
             <div class="ContientPanierLeft">
-                <h1 class="nomArticlePanier">Nom Article</h1>
+                <h1 class="nomArticlePanier">NOM ARTICLE</h1>
 
                 <div class="imgDescriptionPanier">
                     <div class="imgPanier">
@@ -63,4 +71,8 @@
 
     </main>
 
+    @endif
    @endsection
+
+
+

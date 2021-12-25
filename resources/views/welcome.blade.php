@@ -7,7 +7,12 @@
     <link rel="stylesheet" href="/css/style.css">
     <title>servdrone</title>
 </head>
+
 <body class="couleurPanier">
+    @guest
+
+
+
     <header>
         <nav>
         <div class="navLeft">
@@ -24,13 +29,50 @@
             </ul>
 </div>
         <div class="panier">
-        <a href="/panier"><img src="\img\shopping-cart-solid.svg" alt="panier"> </a>
+        <a href="/panier"><img src="\img\shopping-cart-solid.svg" alt="panier" class="imgPanier"> </a>
         </div>
-            <div class="navRight">
-               <a href="/inscription"><img src="\img\account_icon_138984.svg" alt="profil"> </a>
+            <div class="navRight1">
+               <a href="/inscription"><img src="\img\account_icon_138984.svg" alt="profil" class="imgProfil"> </a>
             </div>
         </nav>
     </header>
+
+
+    <!----------------------------------------------- menu responsive ---------------------------->
+
+
+
+
+    @endguest
+
+    @if (Auth::user('login'))
+    <header>
+        <nav>
+        <div class="navLeft">
+        <img class="logo" src="\img\Frame.svg" alt="logo serv'drone">
+</div>
+        <div class="navCenter">
+            <ul class="ulNav">
+
+                <li class="liNav"><a href="/">ACCUEIL</a></li>
+                <li class="liNav"><a href="/histoire">HISTOIRE</a></li>
+                <li class="liNav"><a href="/contacts">CONTACT</a></li>
+                <li class="liNav"><a href="/evenements">EVENEMENTS</a></li>
+
+            </ul>
+</div>
+        <div class="panier">
+        <a href="/panier"><img src="\img\shopping-cart-solid.svg" alt="panier"></a>
+        </div>
+            <div class="navRight">
+               <a href="/profil/{{ Auth::user()->id }}"><p class="prenomDynamique"> Bienvenue <span>{{ Auth::user()->prenom }}</span></p> </a>
+
+            </div>
+        </nav>
+    </header>
+
+
+    @endif
 
 
 
@@ -70,9 +112,10 @@
             <div class="titreNews">
                 <h2 class="newsletter">Newsletter</h2>
             </div>
-            <form class="formNews" action="" method="POST">
-            <input class="adressMail" type="mail" placeholder="Entrez votre adresse mail">
-            <button class="btnNews">S'abonner</button>
+            <form class="formNews" action="/" method="POST">
+                {{ csrf_field() }}
+            <input class="adressMail" type="mail" placeholder="Entrez votre adresse mail" name="email">
+            <input type="submit" class="btnNews" value="s'abonner" name="submit">
             </form>
             <div class="cguCgv">
                 <p class="espaceCgu"><a href="/cgu">CGU</a></p>

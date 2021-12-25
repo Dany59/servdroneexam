@@ -28,6 +28,7 @@ body {
     width: 100%;
     margin: 0%;
     font-size: 62.5%;
+    background-color: white;
 }
 h2{
 color: #7A28CB;
@@ -46,12 +47,13 @@ nav {
     background-color: #494368;
 }
 
-.imgAccueil {
-    background-image: url(/img/Home.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+
+
+.imgTopAccueil {
+   /* background-image: url(/img/Home.jpg);*/
     width: 100%;
-    height: 660px;
+
+
 
 }
 
@@ -65,11 +67,23 @@ nav {
 
 }
 
+.prenomDynamique {
+    margin-left: 5%;
+    margin-top: 0%;
+    width: 30%;
+    font-size: 2em;
+    font-family: Australia;
+    text-transform: uppercase;
+}
+
 .ulNav {
     display: flex;
 
 }
 
+.buttonDetail1 {
+    display: none;
+}
 .navLeft {
     width: 20%;
     margin: 1% 0 0 2%;
@@ -91,11 +105,16 @@ nav {
 
 }
 
+.navRight1 {
+    width: 10%;
+    margin: 1% 0 0 1.2%;
+}
+
 .droneUn {
     width: 100%;
     margin-top: 2%;
    /* margin-right: 5%;*/
-    background-image: url("/img/Home-picture-01.png");
+    /*background-image: url("/img/Home-picture-01.png");*/
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -173,6 +192,9 @@ nav {
 }
 
 .buttonDetail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
      width: 30%;
      background: linear-gradient(to bottom right,#A42DB7, #CB28A2, #EF68B5);
      height: 120px;
@@ -182,6 +204,13 @@ nav {
      border: none;
 
 
+    }
+
+    .buttonDetail:hover {
+        background: #494368;
+
+        transition-duration: 1s ;
+        color: white;
     }
 
 .divButton{
@@ -1036,6 +1065,8 @@ width: 100%;
 
 .checkboxPolitique {
     display: flex;
+    margin-top: 3%;
+    margin-bottom: 5%;
 }
 
 
@@ -1656,7 +1687,8 @@ width: 100%;
 }
 
 .imgPanier{
-    width: 40%;
+    width: 100%;
+    margin-bottom: 5%;
 }
 
 
@@ -1685,19 +1717,23 @@ width: 100%;
 }
 
 .prixPoubelle {
+
     display: flex;
-    margin-top: 30%;
+    margin-top: 50%;
 
 }
 
 .prixPanier {
+    margin-top: 15%;
+    vertical-align: text-bottom;
     font-size: 4em;
     width: 50%;
 }
 
 
 .poubellePanier {
-    width: 5%;
+    margin-top: 0%;
+    width: 10%;
     margin-left: 30%;
     cursor: pointer;
 }
@@ -1940,3 +1976,788 @@ width: 100%;
 .connectez_vous {
     text-decoration: underline;
 }
+
+
+
+/**********************************************Profil***************************************************/
+
+.contientProfil {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.contientMail {
+    display: flex;
+}
+
+
+.titreMail {
+    font-size: 3em;
+    margin-right: 5%;
+    font-family: PublicSans;
+    font-weight: bold;
+}
+
+
+.mailClient {
+
+    font-size: 3em;
+    margin-right: 5%;
+    font-family: PublicSans;
+    font-weight: bold;
+
+}
+
+
+.contientNom {
+    display: flex;
+}
+
+
+.titreNom {
+    font-size: 3em;
+    margin-right: 5%;
+    font-family: PublicSans;
+    font-weight: bold;
+}
+
+
+.nomClient {
+
+    font-size: 3em;
+    margin-right: 5%;
+    font-family: PublicSans;
+    font-weight: bold;
+
+}
+
+.contientPrenom {
+    display: flex;
+}
+
+
+.titrePrenom {
+    font-size: 3em;
+    margin-right: 5%;
+    font-family: PublicSans;
+    font-weight: bold;
+}
+
+
+.prenomClient {
+
+    font-size: 3em;
+    margin-right: 5%;
+    font-family: PublicSans;
+    font-weight: bold;
+
+}
+
+.buttonModifier {
+    width: 30%;
+    height: 30px;
+    background: linear-gradient(to bottom right,#A42DB7, #CB28A2, #EF68B5);
+     color: white;
+     font-size: 2em;
+     font-family: Designosaur;
+     border: none;
+     text-align: center;
+}
+
+
+.buttonSupprimer {
+    width: 30%;
+    height: 30px;
+    margin-left: 5%;
+    background: linear-gradient(to bottom right,#A42DB7, #CB28A2, #EF68B5);
+     color: white;
+     font-size: 2em;
+     font-family: Designosaur;
+     border: none;
+     text-align: center;
+}
+
+
+.contientDeconnexion {
+    margin-top: 5%;
+    margin-left: 5%;
+    height: 30px;
+    width: 50%;
+    background: linear-gradient(to bottom right,#A42DB7, #CB28A2, #EF68B5);
+    text-align: center;
+    font-size: 2em;
+    font-family: PublicSans;
+    font-weight: bold;
+}
+
+
+
+@media only screen and (max-width: 1700px) {
+    .equipe {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .imgEquipe {
+        width: 50%;
+        margin-left: 5%;
+    }
+
+    .test {
+        width: 100%;
+    }
+
+    .divTextEquipe {
+        width: 45%;
+    }
+
+    .paraEquipe {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 10%;
+        width: 90%;
+        font-size: 2em;
+    }
+
+
+}
+
+@media only screen and (max-width: 1650px) {
+
+
+    nav {
+        display: flex;
+        width: 100%;
+        /*background-image: url(/img/1136_gettyimages-157308564\ 2.jpg);
+        background-size: cover;
+        height: 500px;*/
+        background-color: #494368;
+    }
+
+    .liNav {
+        list-style-type: none;
+        font-size: 2.5rem;
+        font-family: 'Australia Title';
+        padding-left: 10%;
+        color: white;
+}
+
+@media only screen and (max-width: 1650px) {
+
+
+.detailEvent3{
+
+    font-size: 5em;
+    margin-top: 30%;
+
+}
+
+
+.detailEvent {
+    font-size: 5em;
+}
+
+.detailEvent2 {
+    font-size: 5em;
+}
+}
+
+
+.espaceCgu {
+    padding-left: 2%;
+    font-family: PublicSans;
+    font-size: 2.0em;
+    font-weight: bold;
+
+
+}
+}
+
+
+
+
+@media only screen and (max-width: 1460px) {
+
+    .liNav {
+        list-style-type: none;
+        font-size: 2rem;
+        font-family: 'Australia Title';
+        padding-left: 10%;
+        color: white;
+
+}
+    .imgPanier{
+        width: 40px;
+        height: 35px;
+    }
+
+    .imgProfil {
+        width: 45px;
+        height: 45px;
+    }
+
+    .pictos {
+        display: none;
+    }
+
+.pictoUn {
+    display: none;
+}
+
+.pictoDeux {
+    display: none;
+}
+
+    .descriptionDroneUn {
+        font-size: 2em ;
+    }
+
+    .droneUn {
+        height: 600px;
+        margin-top: 5%;
+        margin-bottom: 17%;
+    }
+
+    .divButton{
+        display: flex;
+    justify-content: center;
+    margin-top: 40%;
+    margin-bottom: 2%;
+
+
+}
+
+.btnNews {
+    width: 40%;
+}
+
+.buttonDetail {
+    width: 50%;
+}
+
+.reseauxSociaux
+{
+    font-size: 5em;
+}
+
+.newsletter {
+    font-size: 5em;
+}
+
+.partenaires {
+    font-size: 5em;
+}
+.buttonDetail1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+margin-right: auto;
+margin-left: auto;
+margin-top: 35%;
+width: 50%;
+background: linear-gradient(to bottom right,#A42DB7, #CB28A2, #EF68B5);
+height: 100px;
+color: white;
+font-size: 4.8em;
+font-family: Designosaur;
+border: none;
+}
+
+.nomReseau {
+    margin-left: 5%;
+}
+
+.detailEvent {
+    margin-top: 39%;
+}
+
+.detailEvent2 {
+    margin-top: 39%;
+}
+
+.detailEvent3 {
+    margin-top: 39%;
+}
+}
+
+
+
+
+@media only screen and (max-width: 1250px) {
+    .divTextEquipe {
+        display: block;
+        width: 85%;
+        margin-left: 3%;
+    }
+
+    .imgPanier {
+        margin-bottom: 0%;
+    }
+
+    .equipe {
+
+        flex-direction: column-reverse;
+    }
+
+    .paraEquipe {
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .imgEquipe {
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    .espaceCgu {
+        padding-left: 2%;
+        font-family: PublicSans;
+        font-size: 1.6em;
+        font-weight: bold;
+
+
+}
+
+
+
+
+
+    .div1916 {
+        flex-direction: column;
+    }
+
+    .img1916 {
+        width: 82%;
+        margin-left: 9%;
+    }
+    .text1916{
+        width: 90%;
+        margin-top: 0%;
+        margin-left: 5%;
+
+    }
+
+    .para1916 {
+        margin-top: 2%;
+        margin-bottom: 10%;
+        font-size: 2em;
+    }
+
+    .div1930 {
+        flex-direction: column-reverse;
+    }
+
+    .img1930 {
+        width: 82%;
+        margin-left: 9%;
+    }
+    .text1930{
+        width: 90%;
+        margin-top: 0%;
+        margin-left: 5%;
+
+    }
+
+    .para1930 {
+        margin-top: 2%;
+        margin-bottom: 10%;
+        font-size: 2em;
+    }
+
+    .div2000 {
+        flex-direction: column;
+    }
+
+    .img2000 {
+        width: 82%;
+        margin-left: 9%;
+    }
+    .text2000{
+        width: 90%;
+        margin-top: 0%;
+        margin-left: 5%;
+
+    }
+
+    .para2000 {
+        margin-top: 2%;
+        margin-bottom: 10%;
+        font-size: 2em;
+    }
+
+    .div2021 {
+        flex-direction: column-reverse;
+
+    }
+
+    .img2021 {
+        width: 82%;
+        margin-left: 9%;
+    }
+    .text2021{
+        width: 90%;
+        margin-top: 0%;
+        margin-left: 5%;
+
+    }
+
+    .para2021 {
+        margin-top: 2%;
+        margin-bottom: 2%;
+        font-size: 2em;
+    }
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+
+    .leMonde {
+        font-size: 4em;
+    }
+    .descriptionArticle {
+        margin-top: 10%;
+        font-size: 2em;
+    }
+
+    .cadreEvent {
+        width: 100%;
+    }
+
+    .cadreEvent2 {
+        width: 100%;
+    }
+
+    .cadreEvent3 {
+        width: 100%;
+    }
+
+
+    .dateEvent {
+        margin-top: 24%;
+    }
+
+    .dateEvent2 {
+        margin-top: 24%;
+    }
+
+    .dateEvent3 {
+        margin-top: 24%;
+    }
+
+    .detailEvent3 {
+        font-size: 4em;
+        width: 100%;
+        margin-top: 45%;
+    }
+
+    .detailEvent {
+        font-size: 4em;
+        width: 100%;
+    }
+
+    .detailEvent2 {
+        font-size: 4em;
+        width: 100%;
+        text-align: end;
+    }
+
+    .copyrights {
+        width: 87%;
+    }
+
+    /*
+
+    .contientFooter {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .footerLeft {
+        width: 100%;
+
+    }
+
+    /*.reseauxSociaux {
+        width: 50%;
+        margin-left: ;
+        margin-right: ;
+    }
+
+    .imgReseau {
+        width: 5%;
+        margin-right: 0%;
+
+    }
+
+    .reseau {
+        margin-top: 2%;
+        margin-left: 28%;
+    }
+*/
+    .buttonDetail1{
+        margin-top: 40%;
+
+    }
+
+    /*.footerMid {
+        display: none;
+    }
+
+    .footerRight {
+        width: 50%;
+        text-align: left;
+        display: block;
+    }
+
+    .partenaires {
+        width: 50%;
+
+    }*/
+
+
+}
+
+
+@media only screen and (max-width: 1055px) {
+
+
+    .logo {
+        margin-top:5%;
+    }
+
+
+    .navLeft{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    nav{
+        text-align: center;
+        display: block; }
+
+        .ulNav {
+            display: block;
+            width: 40%;
+            margin-left: auto; }
+
+
+            .panier {
+                width: 40%;
+                display: block;
+                margin-top: 1.2%;
+                margin-left: 29%;
+                margin-right: auto;
+            }
+
+            .navRight {
+                width: 100%;
+            }
+            .navRight1{
+                width: 10%;
+                margin-left: 44%;
+                margin-right: auto;
+            }
+
+
+            .prenomDynamique {
+
+                width: 50%;
+                margin-left: 23%;
+                font-size: 2.5em;
+
+            }
+
+    .buttonDetail1{
+        margin-top: 45%;
+
+    }
+
+    .para1916   {
+        font-size: 2em;
+    }
+
+    .btnNews {
+        width: 50%;
+    }
+
+
+
+    .para1930  {
+        font-size: 2em;
+    }
+
+    .para2000 {
+        font-size: 2em;
+    }
+
+    .para2021 {
+        font-size: 2em;
+    }
+
+    .espaceCgu {
+        padding-left: 2%;
+        font-family: PublicSans;
+        font-size: 1.1em;
+        font-weight: bold;
+        margin-top: 35%;
+
+}
+
+.contientFooter {
+    display: block;
+}
+
+.footerLeft {
+    width: 90%;
+    margin: 0 0 0 5%;
+}
+
+
+.titreReseaux {
+    width: 100%;
+}
+
+.reseauxSociaux {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.nomReseau {
+    margin-left: 10%;
+}
+
+.imgReseau {
+    width: 5%;
+}
+
+.reseau {
+    display: flex;
+    width: 32%;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/*body {
+    overflow-x: hidden;
+}*/
+
+
+.adressMail {
+    width: 40%;
+    margin-left: 30%;
+}
+
+.btnNews {
+    margin-left: 30%;
+    width: 41%;
+}
+
+.footerMid {
+    width: 90%;
+    margin-right: 0%;
+}
+
+.newsletter {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.cguCgv {
+    display: none;
+}
+
+
+.footerRight{
+    width: 90%;
+}
+.partenaires {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.nomPartenaire {
+    text-align: left;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 0%;
+}
+
+.listePartenaires {
+    margin-left: 3%;
+}
+
+}
+@media only screen and (max-width: 940px)  {
+
+        .buttonDetail1{
+        margin-top: 50%;
+        height: 80px;
+
+
+}
+
+.reseau {
+ display: block;
+ text-align: center;
+}
+
+.imgReseau {
+    margin-left: 20%;
+}
+
+.nomReseau {
+    margin-left: 0%;
+}
+
+
+.espaceCgu {
+    padding-left: 2%;
+    font-family: PublicSans;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 35%;
+
+
+
+
+    }
+}
+
+    @media only screen and (max-width: 800px)  {
+
+        .titreDrone {
+            font-size: 6em;
+        }
+
+        .nomPrenom {
+            display: block;
+        }
+
+        .nomFormContact {
+            width: 90%;
+            margin-left: 10%;
+        }
+
+        .divMail {
+            width: 75%;
+            margin-left: 10%;
+        }
+
+        .divMess {
+            width: 75%;
+            margin-left: 10%;
+        }
+    }
+

@@ -20,15 +20,15 @@
 
                 <div class="emailInscription">
                 <label for="" class="labelMailInscription">Email</label>
-                <input type="mail" name="mail" class="inputMailInscription" >
+                <input type="mail" name="email" class="inputMailInscription" >
                 </div>
                 <div class="mdpInscription">
                 <label for="" class="labelMdpInscription">Mot de passe</label>
-                <input type="text" class="inputMdpInscription" required name="mdp">
+                <input type="password" class="inputMdpInscription" required name="password">
                 </div>
                 <div class="mdpConfirmInscription">
                 <label for="" class="labelMdpConfirmInscription">Confirmer mot de passe</label>
-                <input type="text" class="inputMdpConfirmInscription" required name="mdpconfirm">
+                <input type="password" class="inputMdpConfirmInscription" required name="passwordconfirm">
                 </div>
                 <div class="politiqueConfiInscription">
                     <input type="checkbox" name="politique_accept" id="" class="checkInscri"   value="1">
